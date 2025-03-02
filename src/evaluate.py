@@ -31,7 +31,7 @@ def evaluate(config_file):
     sns.heatmap(confusion_matrix(test_set.classes,y_pred))
     plt.xlabel("Actual Values")
     plt.ylabel("Predicted Value")
-    plt.savefig("reports/figures/configuration_matrix.png")
+    plt.savefig("../reports/figures/configuration_matrix.png")
     # plt.show()
 
     print("Classification report")

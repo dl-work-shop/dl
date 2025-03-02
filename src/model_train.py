@@ -77,7 +77,8 @@ def train_model(config_file):
         plt.plot(history.history['val_loss'],label="val_loss")
         plt.plot(history.history['accuracy'],label="train_acc")
         plt.plot(history.history['val_accuracy'],label="val_loss")
-        
+        plt.savefig("../reports/figures/loss_accuracy.png")
+
         mod.save(model_path)
         print("Model Saved Successfully")
 
