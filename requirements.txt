@@ -4,7 +4,6 @@ numpy
 tensorflow
 matplotlib
 seaborn
-cookiecutter
 keras
 dvc
 joblib
@@ -13,3 +12,4 @@ streamlit
 h5py
 keras_preprocessing
 mlflow
+opencv-python
