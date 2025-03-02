@@ -1,0 +1,35 @@
+1/3/2025
+
+- To increase the performance of model don't keep  the model static
+
+- Deep Learning : 
+    A subset of ML thatt uuses mathematical functions to map the input to the output
+    DL can essentially do everything that ML can does, but not the other way around
+    They can learn any complex patterns from the data and can draw accurate conclusion on its own
+    It can even process unstructured data.
+
+- Coding Patterns :
+    1. Sequential Patterns : Consist of simple stack of layers where o/p of one layer is input to other layer.
+    2. Functional Patterns : Allows complex architecture where layes have multiple i/p , o/p.
+    3. Modular/Reusable Patterns : Breaking down the model into reusable components.
+
+- Training and Optimization Patterns : 
+    1. Mini batch Gradient Descent : Model is trained over small batches.
+    2. Checkpoint Pattern : Saves model weights at intervals to allow resumption if training is interrupted.
+    3. Hyperparameter Tuning Pattern : Uses automated techniques to find the best model congiguration.
+
+- Neuron : It is assumed that the human brain proves that, intelligenent behavior.
+
+- DL models : 
+    1. ANN : (ip/hidden/op) layers used for classification,regression tasks
+    2. CNN : To process image data
+    3. RNN : speech recognition, language modeling, and stock price prediction
+    4. Generative Adversarial Network(GAN) : consists of a generator and discriminator
+                                             Used for image synthesis, deepface generation, and data augmentation
+
+- CNN : 
+    Input -> Pooling -> Flatten Layer -> Fully Conneted Layer -> Output
+         |-Feature Maps|
+    |--------Feature Extraction--------||---classification----||-Probabilistic -|
+
+- 
